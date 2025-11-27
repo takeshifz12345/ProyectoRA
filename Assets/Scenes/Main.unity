@@ -192,7 +192,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 06e5f4c5c05b5e441a2c90796415b3fe, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  Object: {fileID: 4386279316529976917, guid: 3cb6863d44151bf418f12465ea4abdc1, type: 3}
+  Object: {fileID: 3695935837005415466, guid: 04d81fca40dc0e0498bdaf8f0a704f39, type: 3}
 --- !u!1 &161828276
 GameObject:
   m_ObjectHideFlags: 0
@@ -329,6 +329,12 @@ MonoBehaviour:
   models:
   - {fileID: 919132149155446097, guid: 00af07091510c29438feb1931d01f914, type: 3}
   - {fileID: 919132149155446097, guid: 36b93378fa0f6194f86be78f4e1170f9, type: 3}
+  imagesModels:
+  - {fileID: 21300000, guid: 8a0797f8db3413c4ab31972751c18ca0, type: 3}
+  - {fileID: 21300000, guid: 2b21c3d5efd3efb4e8597d31f11f177a, type: 3}
+  namesModels:
+  - Uno
+  - Dos
   positionModel: {x: 0, y: 0, z: 0}
   scaleModel: {x: 0.1, y: 0.1, z: 0.1}
 --- !u!4 &688217415
@@ -475,7 +481,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   m_Material: {fileID: 0}
-  m_Color: {r: 1, g: 1, b: 1, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_RaycastTarget: 1
   m_RaycastPadding: {x: 0, y: 0, z: 0, w: 0}
   m_Maskable: 1

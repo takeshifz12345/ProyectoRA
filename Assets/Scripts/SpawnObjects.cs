@@ -1,4 +1,6 @@
+using TMPro;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class SpawnObjects : MonoBehaviour
 {
@@ -8,7 +10,11 @@ public class SpawnObjects : MonoBehaviour
     {
         for (int i = 0; i < GameManager.Instance.models.Length; i++)
         {
-            Instantiate(Object, gameObject.transform.position, Quaternion.identity, gameObject.transform);
+            GameObject instance = Instantiate(Object, gameObject.transform.position, Quaternion.identity, gameObject.transform);
+
+            instance.GetComponentInChildren<Image>().sprite = GameManager.Instance.imagesModels[i];
+            instance.GetComponentInChildren<TextMeshProUGUI>().text = GameManager.Instance.namesModels[i];
+            instance.GetComponent<ButtonsClick>().index = i;
         }
     }
 }

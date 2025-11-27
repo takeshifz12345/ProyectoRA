@@ -8,6 +8,10 @@ public class GameManager : MonoBehaviour
 
     public GameObject[] models;
 
+    public Sprite[] imagesModels;
+
+    public string[] namesModels;
+
     public Vector3 positionModel = new Vector3(0f, 0f, 0f);
 
     public Vector3 scaleModel = new Vector3(0.1f, 0.1f, 0.1f);

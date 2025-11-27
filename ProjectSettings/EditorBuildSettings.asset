@@ -11,7 +11,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/AR.unity
     guid: e40a28bb5f0024c4e90c83d4459670c3
-  - enabled: 1
+  - enabled: 0
     path: Assets/Scenes/Prueba.unity
     guid: bec1311f8b895fa4bbf318c0e4f8c9f2
   m_configObjects:
